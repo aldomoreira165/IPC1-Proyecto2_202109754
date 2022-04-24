@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pokemonData{
+    margin-top: 110px;
+}
+
+body{
+    font-family: 'Rajdhani', sans-serif;
+    height: 100%;
+    background-color:  #8C0C0C ;
+}
+
+.title{
+    text-align: center;
+    font-size: 5em;
+}
+
+.main{
+    display: flex;
+    height: 20vh;
+    width: 55%;
+    margin: auto;
+}
+
+.main .inputFields,
+.main .pokemonData{
+    width: 50%;
+}
+
+.inputFields{
+    display: flex;
+    flex-direction: column;
+    font-size: 3em;
+    text-align: center;
+    justify-content: center;
+}
+
+.pokemonData{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,32 @@
+input{
+    font-size: 1.2em;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-left: -220px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 78%;
+    background: transparent;
+    color: #b9c4c6;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+    border: 2px solid #2980b9;
+}
+
+.title{
+    display: block;
+    text-align: center;
+    margin-left: 105px;
+    font-size: 100px;
+    margin-bottom: 0px;
+    margin-top: -95px;
+}
