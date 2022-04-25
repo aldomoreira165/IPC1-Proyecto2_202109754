@@ -1,18 +1,18 @@
 # IPC1--Proyecto2_202109754
-#Datos de Estudiante
+# Datos de Estudiante
 
 | Carnet            | Nombre Completo    | Nombre Auxiliar |
 |-------------------|-------------|---------------|
 | 202109754 | Aldo Saúl Vásquez Moreira | Javier Oswaldo Mirón Cifuentes  |
 
 
-#Frontend
+# Frontend
 
-- ##Tecnogía Utilizada
+- ## Tecnogía Utilizada
 Para el desarrollo del Frontend de este proyecto se utilizó el framework Angular. El cual es un Framework de JavaScript de código abierto escrito en TypeScript. Su objetivo principal es desarrollar aplicaciones de una sola página. Google se encarga del mantenimiento y constantes actualizaciones de mejoras para este framework. Por lo cual, se utilizaron algunos componentes de este framework para mejor el aspecto visual y la experiencia de usuario.
 ![](https://i.imgur.com/dbZlse9.png)
 
-- ##Servicios Utilizados
+-  ## Servicios Utilizados
 Para recuperar la información del backend transmitada por los endpoints creados fue necesaria la implementación de servicios. Dentro de los servicios utilizados se tienen los siguientes:
 
 		`CargarDatos(): any {
@@ -32,7 +32,7 @@ Para recuperar la información del backend transmitada por los endpoints creados
   		}`
 Básicamente, en los servicios creados se accede a las URL de los endpoints y se les envía el parámetro necesario para acceder a la información del Backend y buscar un dato en específico.
 
-- ##Manual de Uso de la Aplicación
+- ## Manual de Uso de la Aplicación
 Al iniciar la aplicación el usuario se encuentra con una pantalla de Login en las que deberá ingresar sus credenciales.
 ![](https://i.imgur.com/Z0bt8kB.png)
 Dichas credenciales se verifican y si tanto el nombre de usuario como la contraseña son correctas el usuario es redirigido a la pantalla home en la cual podrá acceder a la Pokedex.
@@ -43,7 +43,7 @@ Si la información a buscar no coincide con ninguno de los datos de los Pokemon,
 Finalmente, en la esquina superior izquiera se encuentra un botón para cerrar sesión.
 ![](https://i.imgur.com/pElJSmh.png)
 
-#Backend
+# Backend
 
 La API REST fue desarrollada por medio de NodeJS. El cual es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación JavaScript, asíncrono, con E/S de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google
 
@@ -54,14 +54,14 @@ Se utilizaron los módulos express, morgan, cors y typescript provenientes de np
 3. CORS es la abreviatura de Intercambio de recursos entre orígenes. Es un mecanismo para permitir o restringir los recursos solicitados en un servidor web dependiendo de dónde se inició la solicitud HTTP. Esta política se utiliza para proteger un determinado servidor web del acceso de otro sitio web o dominio.
 4. TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases.
 
-- ##Requerimientos del Sistema
+- ## Requerimientos del Sistema
 Node.js no requiere una configuración de hardware sofisticada para funcionar; la mayoría de los ordenadores de esta época deberían manejar Node.js de forma eficiente. Incluso los ordenadores más miniaturizados como el BeagleBone o el Arduino YÚN pueden ejecutar Node.js.
 Sin embargo, mucho depende de qué otro software acaparador de memoria tengas ejecutado en el mismo sistema. Pero en la mayoría de los casos, no deberías preocuparte a menos que tu ordenador sea de la Era Mesozoica.
 
-- ##Puerto Utilizado
+- ## Puerto Utilizado
 Puerto 3000.
 
-- ##Endpoints utilizados
+- ## Endpoints utilizados
 1. Endpoint para obtener todos los Pokemon: Este endpoint no recibe ningún tipo de parámetro. Únicamente retorna todo el arreglo de Pokemon.
 		this.router.get('/pokemons', (req, res) => {
             const poke = this.obtenerPockemons();
