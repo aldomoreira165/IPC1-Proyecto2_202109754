@@ -1,8 +1,10 @@
 # IPC1--Proyecto2_202109754
 #Datos de Estudiante
-| Carnet  | Nombre Completo |  Nombre de Auxiliar |
-| ------------- | ------------- |
-| 202109754  | Aldo Saúl Vásquez Moreira  | Javier Oswaldo Mirón Cifuentes |
+
+| Carnet            | Nombre Completo    | Nombre Auxiliar |
+|-------------------|-------------|---------------|
+| 202109754 | Aldo Saúl Vásquez Moreira | Javier Oswaldo Mirón Cifuentes  |
+
 
 #Frontend
 
